@@ -1,0 +1,20 @@
+.Rss {
+    display: grid;
+    grid-template-columns: .5fr 3fr;
+    grid-row-gap: 1rem;
+    row-gap: 1rem;
+    grid-column-gap: 2rem;
+    column-gap: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
+
+    .title {
+        grid-column: 1;
+        justify-self: end;
+    }
+    .description {
+        grid-column: 2;
+        justify-self: start;
+    }
+}
